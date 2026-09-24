@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Dataset
+CityPersons/
+data/
+datasets/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.weights
+darknet53.conv.74
+checkpoints*/
+
+# Generated results
+results/
+runs/
+outputs/
+
+# Environment
+.env
+.venv/
+venv/
